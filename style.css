@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#controls-wrapper {
+  padding: 40px;
+  color: #fff;
+}
+
+#canvas {
+  background-color: #2C7777;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#reset-button {
+  padding: 5px 20px;
+  background-color: #0E3839;
+  border: none;
+  color: #fff;
+}
+#reset-button:focus {
+  outline: none;
+}
